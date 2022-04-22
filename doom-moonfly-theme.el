@@ -159,7 +159,7 @@ Can be an integer to determine the exact padding."
    (company-tooltip-search-selection :background purple :foreground fg)
    (company-tooltip-selection :background bright-blue :foreground bg)
    ;;;; highlight
-   (cursor                           :background bright-blue :foreground bg)
+   (cursor                           :background blue :foreground bg)
    (evil-ex-lazy-highlight           :foreground bg :background bright-orange)
    (evil-snipe-first-match-face      :foreground bg :background bright-orange)
    (evil-snipe-matches-face          :foreground bg :background bright-blue  )
