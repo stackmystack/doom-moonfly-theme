@@ -50,14 +50,14 @@ Can be an integer to determine the exact padding."
 
   ;; name        default   256           16
   ((bg         '("#080808" "black"       "black"  ))
-   (fg         '("#b2b2b2" "#b2b2b2"     "brightwhite"  ))
+   (fg         '("#dcdcdc" "#dcdcdc"     "brightwhite"  ))
 
    ;; These are off-color variants of bg/fg, used primarily for `solaire-mode',
    ;; but can also be useful as a basis for subtle highlights (e.g. for hl-line
    ;; or region), especially when paired with the `doom-darken', `doom-lighten',
    ;; and `doom-blend' helper functions.
    (bg-alt     '("#080808" "black"       "black"        ))
-   (fg-alt     '("#b2b2b2" "#b2b2b2"     "white"        ))
+   (fg-alt     '("#dcdcdc" "#dcdcdc"     "white"        ))
 
    ;; These should represent a spectrum from bg to fg, where base0 is a starker
    ;; bg and base8 is a starker fg. For example, if bg is light grey and fg is
@@ -70,7 +70,7 @@ Can be an integer to determine the exact padding."
    (base5      '("#797979" "#797979"     "brightblack"  ))
    (base6      '("#878787" "#878787"     "brightblack"  ))
    (base7      '("#969696" "#969696"     "brightblack"  ))
-   (base8      '("#b2b2b2" "#b2b2b2"     "white"        ))
+   (base8      '("#dcdcdc" "#dcdcdc"     "white"        ))
 
    (blue          '("#80a0ff" "#80a0ff" "blue"         ))
    (bright-blue   '("#74b2ff" "#74b2ff" "brightblue"   ))
