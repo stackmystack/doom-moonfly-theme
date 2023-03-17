@@ -201,6 +201,10 @@ Can be an integer to determine the exact padding."
    ;;;; rjsx-mode
    (rjsx-tag :foreground bright-red)
    (rjsx-attr :foreground bright-orange)
+   ;; (tree-sitter-hl-face:punctuation.bracket :foreground comments)
+   ;; (tree-sitter-hl-face:attribute :foreground blue)
+   (tree-sitter-hl-face:function\.call :foreground white)
+
    ;;;; solaire-mode
    (solaire-mode-line-face
     :inherit 'mode-line
