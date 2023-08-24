@@ -234,7 +234,7 @@ Can be an integer to determine the exact padding."
    (rainbow-delimiters-depth-7-face :foreground bright-blue)
    (rainbow-delimiters-depth-8-face :foreground bright-green)
    (rainbow-delimiters-depth-9-face :foreground cyan)
-    ;;;; treemacs
+   ;;;; treemacs
    (treemacs-directory-face     :foreground base8)
    (treemacs-file-face          :foreground fg)
    (treemacs-git-added-face     :foreground bright-green)
@@ -303,7 +303,9 @@ Can be an integer to determine the exact padding."
    (magit-section-heading-selection :foreground bright-blue :weight 'bold)
    (magit-section-highlight         :weight 'bold)
    (magit-section-title             :background bg :foreground bright-purple :weight 'bold)
-   (magit-tag :background bg :foreground bright-cyan :box 't))
+   (magit-tag :background bg :foreground bright-cyan :box 't)
+   ;;;; display-fill-column-indicator-mode
+   (fill-column-indicator :height 1 :background vertical-bar :foreground vertical-bar ))
   ;;;; Base theme variable overrides-
   ())
 
